@@ -28,7 +28,6 @@ void loop()
   delayMicroseconds(10);
   digitalWrite(trig, LOW);
   
-  
   ligaLed();
 }
 
