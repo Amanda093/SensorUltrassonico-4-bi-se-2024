@@ -57,6 +57,7 @@ void ligaLed(){
   delay(500);
 }
 
+// liga e desliga a led e o buzzer
 void ligaLedBuzzer(int led){
   digitalWrite(led, HIGH);
   tone(buzzer, 500);
